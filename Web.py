@@ -104,11 +104,11 @@ except:
 def username():
    
    element = driver.find_element_by_css_selector("#cont > div.l-form > div > form > div:nth-child(3) > div > input[type=tel]")
-   element.send_keys("0768601876")
+   element.send_keys("User name")
 
 def passwd():
     element = driver.find_element_by_css_selector("#cont > div.l-form > div > form > div:nth-child(4) > div.input > input[type=password]")
-    element.send_keys("Innovistar1334")
+    element.send_keys("Password")
 
 def login():
    element = driver.find_element_by_xpath("/html/body/div/div[6]/div/form/div[4]/button")
